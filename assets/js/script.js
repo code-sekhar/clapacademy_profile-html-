@@ -37,3 +37,24 @@ $(document).ready(function () {
     });
   });
   
+  /*profile faq pages*/
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const faqItems = document.querySelectorAll(".faq_item");
+  
+    faqItems.forEach((item) => {
+      const heading = item.querySelector(".faq_heading");
+      const content = item.querySelector(".faq_content");
+      const icon = heading.querySelector("i");
+  
+      heading.addEventListener("click", () => {
+        // Toggle the display of the content
+        const isVisible = content.style.display === "block";
+        content.style.display = isVisible ? "none" : "block";
+  
+        // Toggle the Font Awesome icon class
+        icon.classList.toggle("fa-angle-down", isVisible);
+        icon.classList.toggle("fa-angle-up", !isVisible);
+      });
+    });
+  });
