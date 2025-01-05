@@ -1,0 +1,27 @@
+@media only screen and (max-width: 999px) and (min-width: 300px) {
+    .profile_image_controller.d-flex {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .file_upload_areas {
+        width: 100%;
+        padding: 36px 20px;
+    }
+    
+    .inner_upload_of_content {
+        width: 100%;
+    }
+    .profile_delete_item>h4 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .profile_delete_item>p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .side_ber_section {
+        margin-bottom: 40px;
+    }
+}
