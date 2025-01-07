@@ -433,3 +433,50 @@ li.tab.active>a {
 .page_dashboard {
     padding: 40px 0px;
 }
+/*prefercen*/
+.pr_switch_label>h4 {
+    color: var(--Header-black, #202020);
+
+/* Navbar text */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+
+.pr_switch_label>p {
+    color: var(--Body-text, #666);
+
+/* Body text */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.form-check.form-switch>label>h4 {
+    color: var(--Header-black, #202020);
+
+/* Navbar text */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+.form-check.form-switch>label>p {
+    color: var(--Body-text, #666);
+    margin-bottom: 0px;
+    /* Body text */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.profile_input_item.height_auto{
+    display: block;
+    height: auto;
+}
