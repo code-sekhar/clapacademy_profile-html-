@@ -40,4 +40,18 @@
         overflow: hidden;
         overflow-x: scroll;
     }
+    .dash_board_card {
+        padding: 22px 20px;
+    }
+    .inner_upload_of_content>h4 {
+        
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 8px;
+    }
+    .inner_upload_of_content>p {
+        text-align: center;
+        font-size: 14px;
+    }
 }
