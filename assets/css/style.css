@@ -644,3 +644,12 @@ span.reset_switch {
 .lern_more_areas {
     text-align: center;
 }
+.project_wrapers.box_grid .project_content>h4{
+    line-height: 1 !important;
+   }
+   .project_wrapers.box_grid .project_image>img {
+    height: 100%;
+}
+.project_wrapers.box_grid .project_content>p{
+    margin-bottom: 8px;
+}
